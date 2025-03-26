@@ -79,13 +79,13 @@ void loop(){
   if(syarat < 10){
     if(a < 1){
       delay(1000);
-      gerak.hop(0,0);
+      gerak.berhenti(0,0);
       gerak.angkat();
       Serial.println("gg");
       a += 2;
     }
     if(analog_values < 500){
-      gerak.hop(0,0);
+      gerak.berhenti(0,0);
       delay(1000);
     }
     

@@ -60,7 +60,7 @@ void control::kiri(int kanan, int kiri){
 }
 
 // Fungsi untuk berhenti
-void control::hop(int kanan, int kiri){
+void control::berhenti(int kanan, int kiri){
   analogWrite (eNA, kanan);
     digitalWrite(motor1, LOW);
     digitalWrite(motor2, LOW);
